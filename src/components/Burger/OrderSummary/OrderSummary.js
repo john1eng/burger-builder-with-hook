@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 
 class OrderSummary extends Component {
     componentDidUpdate() {
-        console.log('[OrderSummary] DidUpdate')
     }
 
     render(){

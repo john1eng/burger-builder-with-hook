@@ -12,11 +12,9 @@ const burger = (props) => {
         })
         //this is to flatten the array to prevent some ingredients from zero
         .reduce((arr, el) => {
-            console.log("...", arr, "...")
             return arr.concat(el) // el is the element
         }, [])
         
-        console.log(transformedIngredients)
     if(transformedIngredients.length === 0 ){
         transformedIngredients = <p>Please start adding ingredients!</p>
     }
